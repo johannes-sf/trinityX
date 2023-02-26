@@ -5,7 +5,7 @@
     name: influxdata-el7
     baseurl: "{{ influxdata_repo }}"
     description: Influxdata
-    gpgkey: https://repos.influxdata.com/influxdb.key
+    gpgkey: https://repos.influxdata.com/influxdata-archive_compat.key
 
 - name: Install InfluxDB
   yum:
